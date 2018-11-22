@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".DetailFragment"
+            android:orientation="vertical">
+
+            <!-- TODO: Update blank fragment layout -->
+            <ImageView
+                android:id="@+id/imgAppDetail"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="15dp"
+                android:src="@drawable/grab"/>
+
+            <TextView
+                android:id="@+id/txtTitleAppDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grab"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail"
+                android:textSize="19sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</ScrollView>
